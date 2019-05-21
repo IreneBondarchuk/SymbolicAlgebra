@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SymbolicAlgebra.Functions.Constant">
+    <Position X="4.25" Y="1" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Functions\Constant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Function">
+    <Position X="0.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAAYAUAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Var">
+    <Position X="5.75" Y="1" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Var.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Sin">
+    <Position X="7.25" Y="1" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Sin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Cos">
+    <Position X="2.75" Y="1" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Cos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Tg">
+    <Position X="5.75" Y="3" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Tg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Pow">
+    <Position X="4.25" Y="3" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Functions\Pow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.LogN">
+    <Position X="7.25" Y="3" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\LogN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Functions.Exp">
+    <Position X="2.75" Y="3" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Functions\Exp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Operator">
+    <Position X="0.5" Y="5.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Operators\Operator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Add">
+    <Position X="2.75" Y="5.5" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operators\Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Difference">
+    <Position X="2.75" Y="7" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operators\Difference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Division">
+    <Position X="4.25" Y="5.5" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operators\Division.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Multiplication">
+    <Position X="4.25" Y="7" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operators\Multiplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolicAlgebra.Operators.Power">
+    <Position X="6" Y="6.25" Width="1.25" />
+    <Members>
+      <Method Name="Calc" Hidden="true" />
+      <Method Name="Derivative" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operators\Power.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
