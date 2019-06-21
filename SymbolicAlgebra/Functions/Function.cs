@@ -9,7 +9,9 @@ namespace SymbolicAlgebra.Functions
     {
         public abstract double Calc(double x);
         public abstract Function Derivative();
-        
 
+        protected string name;
+
+       
     }
 }

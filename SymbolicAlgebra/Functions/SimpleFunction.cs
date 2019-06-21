@@ -14,7 +14,7 @@ namespace SymbolicAlgebra.Functions
 
         public override string ToString()
         {
-            return this.GetType().Name.ToString() + "(" + Arg.GetType().Name.ToString() + ")";
+            return this.GetType().Name.ToString() + "(" + Arg.ToString() + ")";
         }
 
 
